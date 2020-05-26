@@ -71,7 +71,7 @@ metadata:
   name: nodejs-express-code-tw
 spec:
   applicationImage: dev.local/nodejs-express-code-tw
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
